@@ -32,7 +32,7 @@ const Navbar = () => {
 
           {/* Mobile Menu */}
           {/* Overlay */}
-          {nav && <div onClick={() => setNav(!nav)} className="bg-black/80 fixed w-full h-screen top-0 left-0 z-10"></div>}
+          {nav && <div onClick={() => setNav(!nav)} className="bg-black/60 fixed w-full h-screen top-0 left-0 z-10"></div>}
           
 
           {/* Side drawer menu */}

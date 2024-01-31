@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import HeadlineCards from './components/HeadlineCards'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
      
-      <Navbar/>
+      <Navbar />
+      <Hero />
+      <HeadlineCards/>
     
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
