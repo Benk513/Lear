@@ -21,7 +21,7 @@ const Food = () => {
   }
   console.log(data)
   return (
-    <div className="max-w-[1640px] m-auto px-4 py-12">
+    <div className="max-w-[1200px] m-auto px-4 py-12">
       <h1 className="text-orange-600 font-bold lg:text-5xl md:text-3xl sm:text-2xl text-center text-xl">Top Rated Menu Items</h1>
       
       {/* Filter Row */}
@@ -53,7 +53,7 @@ const Food = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-4" >
         {foods.map((food) => (
           <div key={food.id} className="border shadow-2xl hover:scale-105 duration-300 rounded-lg">
-            <img src={food.image} alt={food.name} className="rounded-t-lg w-full h-[200px] object-cover " />
+            <img src={food.image} alt={food.name} className="rounded-t-lg w-full h-[150px] object-cover " />
             <div className="flex justify-between px-2 py-4">
               <p>{food.name}</p>
               <p><span className="py-1 px-3 bg-orange-500 text-white rounded-full">{food.price} </span></p>

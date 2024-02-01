@@ -6,7 +6,7 @@ import { useState } from "react";
 const Navbar = () => {
     const [nav,setNav] = useState(false)
   return (
-      <div className="flex max-auto max-w-[1640px] justify-between items-center p-4">
+      <div className="flex max-auto max-w-[1200px] m-auto justify-between items-center p-4">
           {/*Left Side */}
           <div className="flex items-center">
               <div onClick={()=> setNav(!nav)} className="cursor-pointer">
